@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.data/
+.learnings/
+dist/
+coverage/
+public/uploads/
+.vercel/
+
+# Local runtime output
+*.log
+*.pid
+*.sqlite
+*.sqlite-*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local secrets
+.env
+.env.local
+.env.production
+!.env.example
